@@ -1,0 +1,21 @@
+{
+  "name": "bookindexer",
+  "version": "0.0.1",
+  "description": "Book AWS SQS Indexer",
+  "author": "Diego Santos <drcsantos@ebsco.com>",
+  "dependencies": {
+    "async": "^1.4.2",
+    "aws-sdk": "^2.140.0",
+    "elasticsearch": "^13.3.1",
+    "express": "^4.0.0",
+    "get-json": "^1.0.0",
+    "nodelint": "0.5.2"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "sqs": {
+        "queueUrl": "https://sqs.us-east-2.amazonaws.com/404669482207/book-track.fifo"
+    },
+    "elasticSearch": {
+        "host": "127.0.0.1:9200",
+        "log": "trace"
+    }
+}
